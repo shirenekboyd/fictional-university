@@ -1,0 +1,20 @@
+node_modules
+
+# Ignore the wp-config.php to protect DB details
+wp-config.php
+
+# Ignore specific wp-content areas
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/backups/
+wp-content/cache/
+wp-content/debug.log
+
+# Ignore .env files
+.env
+
+# Ignore database dumps
+*.sql
+*.sql.gz
+
+
